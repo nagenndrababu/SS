@@ -30,13 +30,9 @@ namespace BotDataAccess.Modules
             IDictionary<string, IDbDataParameter> dicParameter = new Dictionary<string, IDbDataParameter>();
             DataSet dsResults = new DataSet();
             try
-            {
-                if (string.IsNullOrEmpty(EmpID))
-                {
-                  
-                }
-                else
-                {
+            {                           
+                
+                
                     dicParameter = leaveDataAccess.SetParams(new DbType[] { DbType.String,DbType.String,DbType.String , DbType.Int32 },
                     new object[] { EmpID,"", EmpID, LeaveYear }, new string[] { "Employee", "LeaveType", "Userid", "Year" });
 #if DEBUG
@@ -47,7 +43,7 @@ namespace BotDataAccess.Modules
                  
 #endif
                     lstLeaveBalance = dsResults.Tables[0].Rows.ToTypeList<LeaveBalance>();
-                }
+                
             }
             catch (Exception exLeaveBalanceByEmpId)
             {

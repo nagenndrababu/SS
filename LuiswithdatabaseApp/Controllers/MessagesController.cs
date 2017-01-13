@@ -48,6 +48,7 @@ namespace LuiswithdatabaseApp
                     //string domain = userName.Split('/')[0].ToString();
                     String Output = string.Empty;
                     List<LeaveBalance> balanacelist = new List<LeaveBalance>();
+                    
                     balanacelist = IsLogin("20284");
                     LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
                     Output = "You have Available " + leavebalanace.LeaveType;
@@ -129,6 +130,8 @@ namespace LuiswithdatabaseApp
                 bala.LeaveType = excp.ToString();
                 balanacelist.Add(bala);
             }
+            bala.LeaveType = "Leave";
+            balanacelist.Add(bala);
             return balanacelist;
         }
       
