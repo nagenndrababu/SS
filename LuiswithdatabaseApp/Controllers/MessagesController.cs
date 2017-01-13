@@ -22,7 +22,7 @@ namespace LuiswithdatabaseApp
     [BotAuthentication]
     public class MessagesController : ApiController
     {
-        IMyLeaveDataAccess myleavedataaccess = new LeaveDataAccess(WebApiApplication.IConnect_Connection);
+        IMyLeaveDataAccess myleavedataaccess = new LeaveDataAccess(ConfigurationManager.ConnectionStrings["botconnection"].ConnectionString);
   
        
         [ResponseType(typeof(void))]
