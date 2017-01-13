@@ -47,7 +47,9 @@ namespace BotDataAccess.Modules
             }
             catch (Exception exLeaveBalanceByEmpId)
             {
-                Console.Write(exLeaveBalanceByEmpId);
+                LeaveBalance bal = new LeaveBalance();
+                bal.LeaveType = exLeaveBalanceByEmpId.ToString();
+                lstLeaveBalance.Add(bal);               
             }
             finally
             {
