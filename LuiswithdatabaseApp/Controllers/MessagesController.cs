@@ -28,71 +28,81 @@ namespace LuiswithdatabaseApp
         [ResponseType(typeof(void))]
         public virtual async Task<HttpResponseMessage> Post([FromBody] Activity activity)
         {
-            if (activity.Type.ToLower() == ("Message").ToLower())
+            try
             {
-                StateClient sc = activity.GetStateClient();
 
-                BotData userData = sc.BotState.GetPrivateConversationData(
-                    activity.ChannelId, activity.Conversation.Id, activity.From.Id);
-                var ISvalid = userData.GetProperty<bool>("login");
-                var userid = userData.GetProperty<string>("userid");
-                ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
 
-                string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-                userName = userName.Replace("\\", "/");
-                String rrdid = userName.Split('/')[1].ToString();
-                string domain = userName.Split('/')[0].ToString();
-                String Output = string.Empty;
-                List<LeaveBalance> balanacelist = new List<LeaveBalance>();
-                balanacelist = IsLogin(rrdid);
-                LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
-                Output = "You have Available " + leavebalanace.LeaveType;
-
-                if (!ISvalid)
+                if (activity.Type.ToLower() == ("Message").ToLower())
                 {
-                    userData.SetProperty("userid", rrdid);
-                    userData.SetProperty("login", true);
-                   
-                }
-                //else
-                //{
-                //    Luisdialog luisoutput = await GetFromLUIS(activity.Text);
+                    //StateClient sc = activity.GetStateClient();
 
-                //    if (luisoutput.intents != null && luisoutput.intents.Count() > 0)
-                //    {
-                //        switch (luisoutput.intents[0].intent.ToLower())
-                //        {
-                //            case "Leave balance":
-                //                List<LeaveBalance> balanacelist = new List<LeaveBalance>();
-                //                balanacelist = IsLogin(rrdid);
-                //                LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
-                //                Output = "You have Available " + leavebalanace.BalanceAvailable + "\n" + leavebalanace;
-                //                break;
-                //            case "Leave status":
-                //                Output = "totally you have 5 Jobs";
-                //                break;
-                //            case "Greet":
-                //                Output = "How can i help you?";
-                //                break;
-                //            default:
-                //                Output = "Sorry, I am not getting you...";
-                //                break;
-                //        }
-                //    }
-                //    else
-                //    {
-                //        Output = "Sorry, I am not getting you...";
-                //    }
-                //}
-                Activity reply = activity.CreateReply(Output);
-                await connector.Conversations.ReplyToActivityAsync(reply);
+                    //BotData userData = sc.BotState.GetPrivateConversationData(
+                    //    activity.ChannelId, activity.Conversation.Id, activity.From.Id);
+                    //var ISvalid = userData.GetProperty<bool>("login");
+                    //var userid = userData.GetProperty<string>("userid");
+                    ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+
+                    //string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+                    //userName = userName.Replace("\\", "/");
+                    //String rrdid = userName.Split('/')[1].ToString();
+                    //string domain = userName.Split('/')[0].ToString();
+                    String Output = string.Empty;
+                    List<LeaveBalance> balanacelist = new List<LeaveBalance>();
+                    balanacelist = IsLogin("20284");
+                    LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
+                    Output = "You have Available " + leavebalanace.LeaveType;
+
+                    //if (!ISvalid)
+                    //{
+                    //    userData.SetProperty("userid", rrdid);
+                    //    userData.SetProperty("login", true);
+
+                    //}
+                    //else
+                    //{
+                    //    Luisdialog luisoutput = await GetFromLUIS(activity.Text);
+
+                    //    if (luisoutput.intents != null && luisoutput.intents.Count() > 0)
+                    //    {
+                    //        switch (luisoutput.intents[0].intent.ToLower())
+                    //        {
+                    //            case "Leave balance":
+                    //                List<LeaveBalance> balanacelist = new List<LeaveBalance>();
+                    //                balanacelist = IsLogin(rrdid);
+                    //                LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
+                    //                Output = "You have Available " + leavebalanace.BalanceAvailable + "\n" + leavebalanace;
+                    //                break;
+                    //            case "Leave status":
+                    //                Output = "totally you have 5 Jobs";
+                    //                break;
+                    //            case "Greet":
+                    //                Output = "How can i help you?";
+                    //                break;
+                    //            default:
+                    //                Output = "Sorry, I am not getting you...";
+                    //                break;
+                    //        }
+                    //    }
+                    //    else
+                    //    {
+                    //        Output = "Sorry, I am not getting you...";
+                    //    }
+                    //}
+                    Activity reply = activity.CreateReply(Output);
+                    await connector.Conversations.ReplyToActivityAsync(reply);
+                }
+                else
+                {
+                    HandleSystemMessage(activity);
+                }
+                var response = Request.CreateResponse(HttpStatusCode.OK);
+                return response;
             }
-            else
+            catch(Exception excp)
             {
-                HandleSystemMessage(activity);
+                var response = Request.CreateResponse(HttpStatusCode.BadRequest);
+                return response;
             }
-            var response = Request.CreateResponse(HttpStatusCode.OK);
-            return response;
         }
         public List<LeaveBalance> IsLogin(String rrdid)
         {
