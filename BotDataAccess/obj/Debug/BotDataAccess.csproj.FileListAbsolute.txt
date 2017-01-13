@@ -1,0 +1,13 @@
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\BotDataAccess.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\BotDataAccess.pdb
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\BotDataModel.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\log4net.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\RRD.Core.Crypto.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\RRD.Core.Helper.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\RRD.DataAccess.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\RRD.TraceLog.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\bin\Debug\BotDataModel.pdb
+C:\Work\LuiswithdatabaseApp\BotDataAccess\obj\Debug\BotDataAccess.csprojResolveAssemblyReference.cache
+C:\Work\LuiswithdatabaseApp\BotDataAccess\obj\Debug\BotDataAccess.dll
+C:\Work\LuiswithdatabaseApp\BotDataAccess\obj\Debug\BotDataAccess.pdb

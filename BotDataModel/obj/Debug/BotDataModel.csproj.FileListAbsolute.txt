@@ -1,0 +1,6 @@
+C:\Work\LuiswithdatabaseApp\BotDataModel\bin\Debug\BotDataModel.dll
+C:\Work\LuiswithdatabaseApp\BotDataModel\bin\Debug\BotDataModel.pdb
+C:\Work\LuiswithdatabaseApp\BotDataModel\bin\Debug\RRD.DataAccess.dll
+C:\Work\LuiswithdatabaseApp\BotDataModel\obj\Debug\BotDataModel.dll
+C:\Work\LuiswithdatabaseApp\BotDataModel\obj\Debug\BotDataModel.pdb
+C:\Work\LuiswithdatabaseApp\BotDataModel\obj\Debug\BotDataModel.csprojResolveAssemblyReference.cache

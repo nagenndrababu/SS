@@ -1,0 +1,126 @@
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll.config
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.pdb
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Chronic.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.xml
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.dll
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.pdb
+c:\users\rr265570\documents\visual studio 2015\Projects\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\LuiswithdatabaseApp.csprojResolveAssemblyReference.cache
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\LuiswithdatabaseApp.csprojResolveAssemblyReference.cache
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.pdb
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll.config
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.pdb
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Chronic.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.xml
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\backup\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\LuiswithdatabaseApp.csprojResolveAssemblyReference.cache
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\obj\Debug\Bot Application1.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll.config
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Bot Application1.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\BotDataAccess.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\BotDataModel.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Chronic.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\log4net.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\RRD.Core.Crypto.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\RRD.Core.Helper.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\RRD.DataAccess.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\RRD.TraceLog.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\BotDataAccess.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\BotDataModel.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Autofac.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Builder.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Bot.Connector.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\Newtonsoft.Json.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Net.Http.Formatting.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\System.Web.Http.WebHost.xml
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Work\LuiswithdatabaseApp\LuiswithdatabaseApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
