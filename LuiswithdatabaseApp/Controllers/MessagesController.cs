@@ -46,7 +46,7 @@ namespace LuiswithdatabaseApp
                 List<LeaveBalance> balanacelist = new List<LeaveBalance>();
                 balanacelist = IsLogin(rrdid);
                 LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
-                Output = "You have Available " + leavebalanace.BalanceAvailable + "\n" + leavebalanace;
+                Output = "You have Available " + leavebalanace.LeaveType;
 
                 if (!ISvalid)
                 {
@@ -96,18 +96,29 @@ namespace LuiswithdatabaseApp
         }
         public List<LeaveBalance> IsLogin(String rrdid)
         {
-
             List<LeaveBalance> balanacelist = new List<LeaveBalance>();
-            balanacelist = myleavedataaccess.GetLeaveBalanceByEmpId("20284", 2016);
-            //DataTable dt = getemployeedata(rrdid) as DataTable;
-            //if (dt.Rows.Count > 0)
-            //{
-            //    Output = "Welcome Thiru ! How can i help you? ";
-            //}
-            //else
-            //{
-            //    Output = "You dont have access to chat. please contact administrator";
-            //}
+            LeaveBalance bala = new LeaveBalance();
+            try
+            {
+
+
+               
+                balanacelist = myleavedataaccess.GetLeaveBalanceByEmpId("20284", 2016);
+                //DataTable dt = getemployeedata(rrdid) as DataTable;
+                //if (dt.Rows.Count > 0)
+                //{
+                //    Output = "Welcome Thiru ! How can i help you? ";
+                //}
+                //else
+                //{
+                //    Output = "You dont have access to chat. please contact administrator";
+                //}
+            }
+            catch(Exception excp)
+            {
+                bala.LeaveType = excp.ToString();
+                balanacelist.Add(bala);
+            }
             return balanacelist;
         }
       
