@@ -51,7 +51,7 @@ namespace LuiswithdatabaseApp
                     
                     balanacelist = IsLogin("20284");
                     LeaveBalance leavebalanace = balanacelist[0] as LeaveBalance;
-                    Output = "You have Available " + leavebalanace.LeaveType;
+                    Output = "You have Available " + leavebalanace.BalanceTotal + "\nLeaveType "+leavebalanace.LeaveType;
 
                     //if (!ISvalid)
                     //{
@@ -107,13 +107,9 @@ namespace LuiswithdatabaseApp
         }
         public List<LeaveBalance> IsLogin(String rrdid)
         {
-            List<LeaveBalance> balanacelist = new List<LeaveBalance>();
-            LeaveBalance bala = new LeaveBalance();
+            List<LeaveBalance> balanacelist = new List<LeaveBalance>();          
             try
-            {
-
-
-               
+            {          
                 balanacelist = myleavedataaccess.GetLeaveBalanceByEmpId("20284", 2016);
                 //DataTable dt = getemployeedata(rrdid) as DataTable;
                 //if (dt.Rows.Count > 0)
@@ -125,13 +121,10 @@ namespace LuiswithdatabaseApp
                 //    Output = "You dont have access to chat. please contact administrator";
                 //}
             }
-            catch(Exception excp)
+            catch
             {
-                bala.LeaveType = excp.ToString();
-                balanacelist.Add(bala);
-            }
-            bala.LeaveType = "Leave";
-            balanacelist.Add(bala);
+                
+            }         
             return balanacelist;
         }
       
